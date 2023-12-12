@@ -1,0 +1,58 @@
+@import url(https://fonts.bunny.net/css?family=inter:400);
+
+p {
+    font-family: 'Inter', sans-serif;
+}
+.flex-container {
+    max-width: 800px;
+    display: flex;
+    background-color: rgb(175, 175, 175);
+    padding: 1em;
+    border-radius: 8px;
+    margin: 1em auto;
+}
+.flex-item {
+    background-color: rgb(0, 87, 0);
+    color: white;
+    padding: 1em;
+    margin: 0.7em;
+    text-align: center;
+    border-radius: 4px;
+    align-self: flex-end;
+}
+.column {
+    flex-direction: column;
+}
+.row {
+    flex-direction: row;
+}
+.row-reverse {
+    flex-direction: row-reverse;
+}
+.column-reverse {
+    flex-direction: column-reverse;
+}
+.space-arround {
+    justify-content: space-around;
+}
+.space-between {
+    justify-content: space-between;
+}
+.space-evenly {
+    justify-content: space-evenly;
+}
+.flex-end {
+    justify-content: flex-end;
+}
+.center {
+    justify-content: center;
+}
+.grow {
+    flex-grow: 1;
+}
+.shrink {
+    flex-shrink: 1;
+}
+.basis {
+    flex-basis: 200px;
+}
